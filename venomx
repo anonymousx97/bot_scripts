@@ -1,6 +1,6 @@
 clone(){
-git clone -q https://github.com/ashwinstr/VenomX venomx
-cd venomx
+git clone -q https://github.com/ashwinstr/VenomX venom-x
+cd venom-x
 pip -q install --no-cache-dir -r requirements.txt
 bash run
 }
