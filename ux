@@ -1,6 +1,6 @@
 clone(){
-git clone -q https://github.com/anonymousx97/ux-jutsu ux
-cd ux
+git clone -q https://github.com/anonymousx97/ux-jutsu u-x
+cd u-x
 pip -q install --no-cache-dir -r requirements.txt
 bash run
 }
