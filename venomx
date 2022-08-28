@@ -1,8 +1,7 @@
-clone(){
 git clone -q https://github.com/ashwinstr/VenomX venom-x
 cd venom-x
+PIP_ROOT_USER_ACTION=ignore
+pip install -U pip
+pip install -U setuptools
 pip -q install --no-cache-dir -r requirements.txt
 bash run
-}
-
-clone
