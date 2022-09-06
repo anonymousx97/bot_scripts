@@ -1,8 +1,8 @@
+wget -q https://raw.githubusercontent.com/anonymousx97/bot_scripts/main/repo_change
 git clone -q https://github.com/ashwinstr/VenomX venom-x
 cd venom-x
-PIP_ROOT_USER_ACTION=ignore
 pip install -q -U pip
 pip install -q -U setuptools
 pip -q install --no-cache-dir -r requirements.txt
-service apache2 restart 
+service apache2 restart
 bash run
