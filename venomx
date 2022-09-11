@@ -1,5 +1,5 @@
 wget -q https://raw.githubusercontent.com/anonymousx97/bot_scripts/main/repo_change
-git clone https://github.com/anonymousx97/VenomX venom-x
+git clone -q https://github.com/anonymousx97/VenomX venom-x
 cd venom-x
 pip install -q -U pip
 pip install -q -U setuptools
